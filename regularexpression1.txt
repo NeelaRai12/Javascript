@@ -1,0 +1,4 @@
+?= -> it means position of a string doesnot matter
+. -> matches single character
+* -> matches precedence character
+{minimum, maximum} -> {8,50}

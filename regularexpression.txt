@@ -1,0 +1,11 @@
+Regular Expressions
+// -> regular expression pattern must be written between these symbol
+^ -> it checks the pattern fron the start
+$ -> it checks the pattern fron the last
+[a-z] -> it accepts only lowercase letter from a to z
+[A-Z] -> it accepts only uppercase letter
+[a-zA-Z] -> it accepts both uppercase and lowercase characters
+[0-9] -> it accepts only numeric value
+
+for special character user '\' 
+eg: space(\s),\@,\_,\-,\$,etc

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+</head>
+<body>
+    <p>onclick, onsubmit, onchange, onload, onmouseover, onmouseout, ondoubleclick, onkeyup, onkeydown, onkeypress, onmousemove</p>
+
+    <button onclick="demo_function()">click to see the result</button>
+    <P id="result"></P>
+
+    <script>
+        function demo_function(){
+            // document.write('this is a click event')
+
+            document.getElementById('result').innerHTML = 'this is a click event'
+        }
+    </script>
+    
+</body>
+</html>
